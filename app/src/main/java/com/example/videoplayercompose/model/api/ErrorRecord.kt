@@ -1,4 +1,4 @@
-package com.example.videoplayercompose.data.api
+package com.example.videoplayercompose.model.api
 
 sealed class ErrorRecord{
     object ClientError: ErrorRecord() {
