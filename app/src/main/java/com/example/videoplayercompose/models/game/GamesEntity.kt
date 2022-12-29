@@ -1,4 +1,4 @@
-package com.example.videoplayercompose.model.game
+package com.example.videoplayercompose.models.game
 
 data class GamesEntity(
     val gamesEntities: List<GameResultEntity>

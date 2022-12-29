@@ -1,4 +1,4 @@
-package com.example.videoplayercompose.model.game
+package com.example.videoplayercompose.models.game
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.Stable

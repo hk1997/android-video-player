@@ -1,8 +1,8 @@
 package com.example.videoplayercompose.repository
 
-import com.example.videoplayercompose.model.api.Record
-import com.example.videoplayercompose.model.game.GameResultEntity
-import com.example.videoplayercompose.model.game.GamesEntity
+import com.example.videoplayercompose.models.api.Record
+import com.example.videoplayercompose.models.game.GameResultEntity
+import com.example.videoplayercompose.models.game.GamesEntity
 
 class GamesRepositoryMockImpl : GamesRepository {
     override suspend fun getAllGames(nextPage: Int): Record<GamesEntity> =

@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.paging.PagingData
 import androidx.paging.compose.collectAsLazyPagingItems
-import com.example.videoplayercompose.model.game.GameResultEntity
+import com.example.videoplayercompose.models.game.GameResultEntity
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

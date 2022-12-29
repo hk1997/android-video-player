@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
-import com.example.videoplayercompose.model.game.GameResultEntity
+import com.example.videoplayercompose.models.game.GameResultEntity
 import com.example.videoplayercompose.repository.GamesSource
 
 class HomeViewModel(private val gamesSource: GamesSource) : ViewModel() {

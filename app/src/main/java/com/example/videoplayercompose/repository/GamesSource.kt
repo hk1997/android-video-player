@@ -2,7 +2,7 @@ package com.example.videoplayercompose.repository
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.example.videoplayercompose.model.game.GameResultEntity
+import com.example.videoplayercompose.models.game.GameResultEntity
 
 
 class GamesSource(
